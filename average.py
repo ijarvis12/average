@@ -28,4 +28,4 @@ while len(x) > 0:
 
 # ouput average
 print("Average:",total/i)
-garbage = input("Press <Enter> to end program")
+_ = input("Press <Enter> to end program")
