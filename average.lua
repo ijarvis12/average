@@ -29,7 +29,7 @@ end
 -- while user inputs values, attempt to add them to the total
 while #x > 0 do
   local err = pcall(add)
-  if err == false then
+  if not(err) then
     print("Not exceptable input")
   end
   print("Input a number (<Enter>) to exit): ")
