@@ -11,7 +11,7 @@ total = 0
 i = 0
 
 -- user input number
-print("Input a number (<Enter>) to exit: ")
+print("Input a number (<Enter> to exit): ")
 x = io.read()
 
 -- If no input exit
