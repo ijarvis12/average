@@ -32,7 +32,7 @@ while #x > 0 do
   if not(err) then
     print("Not exceptable input")
   end
-  print("Input a number (<Enter>) to exit): ")
+  print("Input a number (<Enter> to exit): ")
   x = io.read()
 end
 
