@@ -10,6 +10,7 @@ void main() {
                 total += x;
                 x = double.tryParse(stdin.readLineSync()!);
         }
-        print("The average: $total");
+        double? average = total / i;
+        print("The average: $average");
         String? _ = stdin.readLineSync()!;
 }
