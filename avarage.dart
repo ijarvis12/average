@@ -12,5 +12,6 @@ void main() {
         }
         double? average = total / i;
         print("The average: $average");
+        print("Press <Enter> to exit");
         String? _ = stdin.readLineSync()!;
 }
