@@ -1,4 +1,4 @@
-#!/home/ijarvis12/.guix-profile/bin/guile -s
+#!/usr/bin/env guile -s
 !#
 
 ;; Program finds the average of numerical inputs
@@ -21,7 +21,7 @@
 ;; Variable for input
 (define x "")
 
-(while (> 1 0)
+(while '(#t)
         (set! x (get-line (current-input-port)))
         (if (= 0 (string-length x)) (break))
         (if (not (number? (string->number x))) (break))
